@@ -82,12 +82,12 @@ config_hdmi_boost:0=0
 config_hdmi_boost:1=0
 
 # Выключаем красный светодиод питания
-dtparam=act_led_trigger=none
-dtparam=act_led_activelow=off
+#dtparam=act_led_trigger=none
+#dtparam=act_led_activelow=off
 
 # Выключаем мигающий светодиод
-dtparam=pwr_led_trigger=none
-dtparam=pwr_led_activelow=off
+#dtparam=pwr_led_trigger=none
+#dtparam=pwr_led_activelow=off
 
 [all]
 #dtoverlay=vc4-f
